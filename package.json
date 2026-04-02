@@ -1,0 +1,11 @@
+{
+  "name": "tracking",
+  "version": "1.0.0",
+  "description": "Real-Time Bus Tracking root script",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
